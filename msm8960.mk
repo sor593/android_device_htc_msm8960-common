@@ -117,6 +117,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl
 
+# Usb HAL interfaces
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service
+
 # WiFi
 PRODUCT_PACKAGES += \
     hostapd \
