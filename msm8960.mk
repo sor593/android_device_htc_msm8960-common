@@ -128,6 +128,10 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
+# Wi-Fi HAL interfaces
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service
+
 # Vendor Interface Manifest
 DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
 
