@@ -47,6 +47,10 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
     android.hardware.audio.effect@2.0-impl
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libbt-vendor
+
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8960 \
