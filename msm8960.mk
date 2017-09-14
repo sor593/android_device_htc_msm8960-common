@@ -111,7 +111,8 @@ PRODUCT_PACKAGES += \
 
 # Sensors HIDL interfaces
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@1.0-impl
+    android.hardware.sensors@1.0-impl \
+    android.hardware.sensors@1.0-service
 
 # Thermal HAL interfaces
 PRODUCT_PACKAGES += \
